@@ -1,0 +1,10 @@
+@import "./reset.scss";
+
+// 滚动条样式设置
+::-webkit-scrollbar{
+    width: 0;
+}
+// 覆盖element-ui默认样式
+:root {
+    --el-color-primary: #2ECC71 !important;
+}
